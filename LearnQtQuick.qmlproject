@@ -3,20 +3,17 @@
 import QmlProject 1.1
 
 Project {
-    mainFile: "Source/main.qml"
+    mainFile: "Source/RectangleExample.qml"
 
     /* Include .qml, .js, and image files from current directory and subdirectories */
-    QmlFiles {
-        directory: "."
-    }
-    JavaScriptFiles {
-        directory: "."
-    }
-    ImageFiles {
-        directory: "."
-    }
+    QmlFiles { directory: "." }
+
+    JavaScriptFiles { directory: "." }
+
+    ImageFiles { directory: "." }
+
     /* List of plugin directories passed to QML runtime */
     // importPaths: [ "asset_imports" ]
 
-    mainUiFile: "images/background.png"
+    mainUiFile: ""
 }
